@@ -49,7 +49,7 @@ public class App {
 
         // Pause for 30 seconds and force quitting the app (because we're
         // looping infinitely)
-        Thread.sleep(30000);
+        Thread.sleep(3000);
         System.exit(0);
     }
 }

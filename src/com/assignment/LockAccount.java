@@ -61,6 +61,7 @@ public class LockAccount implements BankAccount<LockAccount> {
      * @param destination destination account
      * @param amount amount of money to transfer
      */
+    @Override
     public void transferFunds(final LockAccount destination, int amount) {
         LockAccount sourceLock, destLock;
 

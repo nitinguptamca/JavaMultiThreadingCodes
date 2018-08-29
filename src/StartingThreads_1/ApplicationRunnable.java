@@ -34,7 +34,7 @@ class RunnerRunnable implements Runnable {
 public class ApplicationRunnable {
 
     public static void main(String[] args) {
-        Thread thread1 = new Thread(new RunnerRunnable());
+        Thread thread1 = new Thread(new RunnerRunnable() ,"nitin kumar gupta");
         Thread thread2 = new Thread(new RunnerRunnable());
         thread1.start();
         thread2.start();

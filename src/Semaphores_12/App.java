@@ -3,6 +3,7 @@ package Semaphores_12;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.TimeUnit;
+import java.util.concurrent.Semaphore;
 
 /**
  * {@link java.util.concurrent.Semaphore}s

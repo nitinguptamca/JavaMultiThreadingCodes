@@ -61,8 +61,8 @@ public class App {
         });
         t1.start();
         t2.start();
-//        t1.join();
-//        t2.join();
+       t1.join();
+      t2.join();
 
         // Pause for 30 seconds and force quitting the app (because we're
         // looping infinitely)

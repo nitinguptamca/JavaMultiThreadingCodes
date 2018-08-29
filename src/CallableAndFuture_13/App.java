@@ -42,7 +42,7 @@ public class App {
             //return value is Integer
             public Integer call() throws TimeoutException {
                 Random random = new Random();
-                int duration = random.nextInt(4000);
+                int duration = random.nextInt(4);
                 if (duration > 2000) {
                     throw new TimeoutException ("Sleeping for too long.");
                 }
